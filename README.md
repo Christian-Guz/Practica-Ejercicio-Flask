@@ -31,4 +31,5 @@
 - Se revisaron que el entorno virtual y el archivo .gitignore no se incluyan en el repositorio con el comando git status
 - Se agregaron los archivos al repositorio con el comando git add .
 - Se realizó un commit con el comando git commit -m ""
+- Se creó el repositorio en github
 - Se realizó un push con el comando git push
