@@ -7,5 +7,31 @@
     <p>Nuestra biblioteca se encuentra ubicada dentro de la universidad en el primer piso al lado de la papelería, puedes obtener mayor información en la oficina</p>
     <p>Puedes conctactarnos con nuestro correo: universidad@gmail.com</p>
     <p>Los horarios de atencion son de 8:00 a 12:00 y de 13:00 a 17:00 en la biblioteca y por correo atendemos de 8:00 a 17:00</p>
+
+    <div class = "d-flex gap-3 algin-items-start">
+        
+        <div class="card" style="width: 15rem; background-color: #181428; border: 4px solid #ff7b00; margin-left: 20px">
+            <img src="{{ url_for('static', filename='img/logo_correo.png')}}" class="card-img-top" alt="correo">
+            <div class="card-body">
+                <p class="card-text">Puedes contactarnos en nuestro correo: universidad@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem; background-color: #181428; border: 4px solid #ff7b00; margin-left: 20px">
+            <img src="{{ url_for('static', filename='img/logo_instagram.png')}}" class="card-img-top" alt="instagram">
+            <div class="card-body">
+                <p class="card-text">Puedes seguirnos y conocer nuestros libros en: @biblioteca_uni</p>
+            </div>
+        </div>
+
+        <div class="card" style="width: 15rem; background-color: #181428; border: 4px solid #ff7b00; margin-left: 20px">
+            <img src="{{ url_for('static', filename='img/logo_whatsapp.png')}}" class="card-img-top" alt="whatsapp">
+            <div class="card-body">
+                <p class="card-text">Contáctanos por nuestro whatsapp o llámanos: 477987123</p>
+            </div>
+        </div>
+
+    </div>
+
 </div>
 {% endblock %}
